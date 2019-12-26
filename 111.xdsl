@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Success">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Forecast">
+			<state id="Good" />
+			<state id="Moderate" />
+			<state id="Poor" />
+			<parents>Success</parents>
+			<probabilities>0.4 0.4 0.2 0.1 0.3 0.6000000000000001</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.4.4601.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
+			<node id="Success">
+				<name>Success</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>77 122 230 199</position>
+			</node>
+			<node id="Forecast">
+				<name>Forecast</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>90 298 216 380</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
