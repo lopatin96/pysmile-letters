@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="spam_free">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="spam_satisfied">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="spam_accept_credit_cards">
+			<state id="t" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<noisymax id="r">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_free spam_satisfied spam_accept_credit_cards</parents>
+			<strengths>0 1 0 1 0 1</strengths>
+			<parameters>0.3300000000000001 0.6699999999999999 0 1 0.3300000000000001 0.6699999999999999 0 1 0.3300000000000001 0.6699999999999999 0 1 0.5 0.5</parameters>
+		</noisymax>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.4.4601.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
+			<node id="spam_free">
+				<name>spam_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>117 88 183 135</position>
+			</node>
+			<node id="spam_satisfied">
+				<name>spam_satisfied</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>228 72 308 116</position>
+			</node>
+			<node id="spam_accept_credit_cards">
+				<name>spam_accept_credit_cards</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>366 62 487 146</position>
+			</node>
+			<node id="r">
+				<name>r</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>258 254 306 284</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
