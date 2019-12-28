@@ -7,7 +7,7 @@ class LettersClassifier:
         self.net = None
         self.letter = None
         self.evidences = {
-            'spam': ['free', 'Satisfied', 'Accept credit cards']
+            'spam': ['free', 'Satisfied', 'Accept credit cards', 'Acceptance', 'access', 'Accordingly']
         }
 
     def set_net(self, net_path):
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     lettersClassifier = LettersClassifier()
     lettersClassifier.set_net(net_path)
-    lettersClassifier.set_letter('wewe we w satisfiedewew')
+    lettersClassifier.set_letter('free Satisfied Accept credit cards Acceptance access Accordingly')
     beliefs = lettersClassifier.get_node_value('r')
 
     print(beliefs)
