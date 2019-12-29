@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="spam_free">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.3 0.6999999999999998</probabilities>
+		</cpt>
+		<cpt id="spam_satisfied">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.15 0.85</probabilities>
+		</cpt>
+		<cpt id="spam_accept_credit_cards">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_acceptance">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="spam_won">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.15 0.85</probabilities>
+		</cpt>
+		<cpt id="spam_access">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.03 0.97</probabilities>
+		</cpt>
+		<cpt id="spam_online">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.15 0.85</probabilities>
+		</cpt>
+		<cpt id="spam_bargain">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="love_love_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="love_loved_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_for_always">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_the_words_to_describe">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="love_how_much_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_let_my_heart">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_express">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_do_that_for">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_thinking_of">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_want_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="love_share">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_excited">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_feeling">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="love_hot">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.09 0.91</probabilities>
+		</cpt>
+		<cpt id="love_romantic">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="love_meet">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<noisymax id="love_RESULT">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>love_meet love_love_you love_loved_you love_for_always love_the_words_to_describe love_how_much_you love_let_my_heart love_express love_do_that_for love_thinking_of love_want_you love_share love_excited love_feeling love_hot love_romantic</parents>
+			<strengths>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</strengths>
+			<parameters>0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5</parameters>
+		</noisymax>
+		<cpt id="spam_best_price">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_call_now">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="spam_call_free">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="spam_cash_bonus">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_chance">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_click">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.06 0.9399999999999999</probabilities>
+		</cpt>
+		<cpt id="spam_credit">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="spam_free_access">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.09 0.91</probabilities>
+		</cpt>
+		<cpt id="spam_free_money">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.9500000000000001</probabilities>
+		</cpt>
+		<cpt id="spam_gift_certificate">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_limited">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="spam_lifetime">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<noisymax id="spam_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_free spam_satisfied spam_accept_credit_cards spam_acceptance spam_won spam_access spam_online spam_bargain spam_best_price spam_call_now spam_call_free spam_cash_bonus spam_chance spam_click spam_credit spam_lifetime spam_limited spam_gift_certificate spam_free_money spam_free_access</parents>
+			<strengths>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</strengths>
+			<parameters>0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8</parameters>
+		</noisymax>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.4.4601.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
+			<node id="love_love_you">
+				<name>love_love_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>864 167 961 218</position>
+			</node>
+			<node id="love_loved_you">
+				<name>love_loved_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>988 165 1085 216</position>
+			</node>
+			<node id="love_for_always">
+				<name>love_for_always</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1116 169 1213 220</position>
+			</node>
+			<node id="love_the_words_to_describe">
+				<name>love_the_words_to_describe</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1236 169 1333 220</position>
+			</node>
+			<node id="love_how_much_you">
+				<name>love_how_much_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>740 246 837 297</position>
+			</node>
+			<node id="love_let_my_heart">
+				<name>love_let_my_heart</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>862 247 959 298</position>
+			</node>
+			<node id="love_express">
+				<name>love_express</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>986 247 1083 298</position>
+			</node>
+			<node id="love_do_that_for">
+				<name>love_do_that_for</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1111 246 1208 297</position>
+			</node>
+			<node id="love_thinking_of">
+				<name>love_thinking_of</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1240 248 1337 299</position>
+			</node>
+			<node id="love_want_you">
+				<name>love_want_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>741 329 838 380</position>
+			</node>
+			<node id="love_share">
+				<name>love_share</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>863 330 960 381</position>
+			</node>
+			<node id="love_excited">
+				<name>love_excited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>987 330 1084 381</position>
+			</node>
+			<node id="love_feeling">
+				<name>love_feeling</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1112 329 1209 380</position>
+			</node>
+			<node id="love_hot">
+				<name>love_hot</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1241 331 1338 382</position>
+			</node>
+			<node id="love_romantic">
+				<name>love_romantic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>739 413 836 464</position>
+			</node>
+			<node id="love_meet">
+				<name>love_meet</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>741 166 838 217</position>
+			</node>
+			<node id="spam_free">
+				<name>spam_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>41 167 138 218</position>
+			</node>
+			<node id="spam_satisfied">
+				<name>spam_satisfied</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>163 168 260 219</position>
+			</node>
+			<node id="spam_accept_credit_cards">
+				<name>spam_accept_credit_cards</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>287 168 384 219</position>
+			</node>
+			<node id="spam_acceptance">
+				<name>spam_acceptance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>412 167 509 218</position>
+			</node>
+			<node id="spam_won">
+				<name>spam_won</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>541 169 638 220</position>
+			</node>
+			<node id="spam_access">
+				<name>spam_access</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 241 137 292</position>
+			</node>
+			<node id="spam_online">
+				<name>spam_online</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>165 242 262 293</position>
+			</node>
+			<node id="spam_bargain">
+				<name>spam_bargain</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>285 244 382 295</position>
+			</node>
+			<node id="spam_best_price">
+				<name>spam_best_price</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>409 243 506 294</position>
+			</node>
+			<node id="spam_call_now">
+				<name>spam_call_now</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>539 244 636 295</position>
+			</node>
+			<node id="spam_call_free">
+				<name>spam_call_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>38 328 135 379</position>
+			</node>
+			<node id="spam_cash_bonus">
+				<name>spam_cash_bonus</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>162 332 259 383</position>
+			</node>
+			<node id="spam_chance">
+				<name>spam_chance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 329 380 380</position>
+			</node>
+			<node id="spam_click">
+				<name>spam_click</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>411 327 508 378</position>
+			</node>
+			<node id="spam_credit">
+				<name>spam_credit</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>540 329 637 380</position>
+			</node>
+			<node id="spam_free_access">
+				<name>spam_free_access</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>38 410 135 461</position>
+			</node>
+			<node id="spam_free_money">
+				<name>spam_free_money</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>162 414 259 465</position>
+			</node>
+			<node id="spam_gift_certificate">
+				<name>spam_gift_certificate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 411 380 462</position>
+			</node>
+			<node id="spam_limited">
+				<name>spam_limited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>411 409 508 460</position>
+			</node>
+			<node id="spam_lifetime">
+				<name>spam_lifetime</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>540 411 637 462</position>
+			</node>
+			<node id="spam_RESULT">
+				<name>spam_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>285 88 382 139</position>
+			</node>
+			<node id="love_RESULT">
+				<name>love_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>985 80 1081 128</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
