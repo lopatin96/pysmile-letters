@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="spam_free">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.15 0.8500000000000001</probabilities>
+		</cpt>
+		<cpt id="spam_satisfied">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.03 0.97</probabilities>
+		</cpt>
+		<cpt id="spam_accept_credit_cards">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.03 0.97</probabilities>
+		</cpt>
+		<cpt id="spam_acceptance">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.03 0.97</probabilities>
+		</cpt>
+		<cpt id="spam_access">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.9500000000000001</probabilities>
+		</cpt>
+		<cpt id="spam_accordingly">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.9500000000000001</probabilities>
+		</cpt>
+		<noisymax id="spam_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_free spam_satisfied spam_accept_credit_cards spam_acceptance spam_access spam_accordingly</parents>
+			<strengths>0 1 0 1 0 1 0 1 0 1 0 1</strengths>
+			<parameters>0.16 0.84 0 1 0.1599999999999999 0.8400000000000001 0 1 0.1599999999999999 0.8400000000000001 0 1 0.16 0.84 0 1 0.16 0.84 0 1 0.16 0.84 0 1 0.5 0.5</parameters>
+		</noisymax>
+		<cpt id="love_love_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="love_loved_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_for_always">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_the_words_to_describe">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="love_how_much_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_let_my_heart">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_express">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_do_that_for">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_thinking_of">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_want_you">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="love_share">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_excited">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_feeling">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="love_hot">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.09 0.91</probabilities>
+		</cpt>
+		<cpt id="love_romantic">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="love_honey">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.15 0.85</probabilities>
+		</cpt>
+		<cpt id="love_every_moment">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_every_second">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_heart">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.3 0.7</probabilities>
+		</cpt>
+		<cpt id="love_forever">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.08 0.92</probabilities>
+		</cpt>
+		<cpt id="love_happy">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.25 0.75</probabilities>
+		</cpt>
+		<cpt id="love_my_dear">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="love_unforgettable">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_meet">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<noisymax id="love_RESULT">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>love_meet love_love_you love_loved_you love_for_always love_the_words_to_describe love_thinking_of love_do_that_for love_express love_let_my_heart love_how_much_you love_want_you love_share love_excited love_feeling love_hot love_romantic love_honey love_every_moment love_every_second love_heart love_forever love_happy love_my_dear love_unforgettable</parents>
+			<strengths>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</strengths>
+			<parameters>0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8</parameters>
+		</noisymax>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.4.4601.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
+			<node id="spam_free">
+				<name>spam_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>18 150 84 197</position>
+			</node>
+			<node id="spam_satisfied">
+				<name>spam_satisfied</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>86 82 166 126</position>
+			</node>
+			<node id="spam_accept_credit_cards">
+				<name>spam_accept_credit_cards</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>213 78 334 162</position>
+			</node>
+			<node id="spam_RESULT">
+				<name>spam_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>104 141 208 201</position>
+			</node>
+			<node id="spam_acceptance">
+				<name>spam_acceptance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>299 143 420 227</position>
+			</node>
+			<node id="spam_access">
+				<name>spam_access</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>163 202 284 286</position>
+			</node>
+			<node id="spam_accordingly">
+				<name>spam_accordingly</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>20 195 141 279</position>
+			</node>
+			<node id="love_love_you">
+				<name>love_love_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>135 394 232 445</position>
+			</node>
+			<node id="love_loved_you">
+				<name>love_loved_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>259 394 356 445</position>
+			</node>
+			<node id="love_for_always">
+				<name>love_for_always</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>384 393 481 444</position>
+			</node>
+			<node id="love_the_words_to_describe">
+				<name>love_the_words_to_describe</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>513 399 610 450</position>
+			</node>
+			<node id="love_how_much_you">
+				<name>love_how_much_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>12 464 109 515</position>
+			</node>
+			<node id="love_let_my_heart">
+				<name>love_let_my_heart</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>134 465 231 516</position>
+			</node>
+			<node id="love_express">
+				<name>love_express</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>258 465 355 516</position>
+			</node>
+			<node id="love_do_that_for">
+				<name>love_do_that_for</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>383 464 480 515</position>
+			</node>
+			<node id="love_thinking_of">
+				<name>love_thinking_of</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>512 466 609 517</position>
+			</node>
+			<node id="love_want_you">
+				<name>love_want_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>13 532 110 583</position>
+			</node>
+			<node id="love_share">
+				<name>love_share</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>135 533 232 584</position>
+			</node>
+			<node id="love_excited">
+				<name>love_excited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>259 533 356 584</position>
+			</node>
+			<node id="love_feeling">
+				<name>love_feeling</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>384 532 481 583</position>
+			</node>
+			<node id="love_hot">
+				<name>love_hot</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>513 534 610 585</position>
+			</node>
+			<node id="love_romantic">
+				<name>love_romantic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>12 603 109 654</position>
+			</node>
+			<node id="love_honey">
+				<name>love_honey</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>134 604 231 655</position>
+			</node>
+			<node id="love_every_moment">
+				<name>love_every_moment</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>258 604 355 655</position>
+			</node>
+			<node id="love_every_second">
+				<name>love_every_second</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>383 603 480 654</position>
+			</node>
+			<node id="love_heart">
+				<name>love_heart</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>512 605 609 656</position>
+			</node>
+			<node id="love_forever">
+				<name>love_forever</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>13 672 110 723</position>
+			</node>
+			<node id="love_happy">
+				<name>love_happy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>131 669 228 720</position>
+			</node>
+			<node id="love_my_dear">
+				<name>love_my_dear</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>255 669 352 720</position>
+			</node>
+			<node id="love_unforgettable">
+				<name>love_unforgettable</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>384 672 481 723</position>
+			</node>
+			<node id="love_meet">
+				<name>love_meet</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>12 395 109 446</position>
+			</node>
+			<node id="love_RESULT">
+				<name>love_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>256 317 353 368</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
