@@ -123,11 +123,11 @@
 			<probabilities>0.05 0.95</probabilities>
 		</cpt>
 		<noisymax id="love_RESULT">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="y" />
+			<state id="n" />
 			<parents>love_meet love_love_you love_loved_you love_for_always love_the_words_to_describe love_how_much_you love_let_my_heart love_express love_do_that_for love_thinking_of love_want_you love_share love_excited love_feeling love_hot love_romantic</parents>
 			<strengths>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</strengths>
-			<parameters>0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5 0 1 0.5 0.5</parameters>
+			<parameters>0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2000000000000001 0.8000000000000002 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8 0 1 0.2 0.8</parameters>
 		</noisymax>
 		<cpt id="spam_best_price">
 			<state id="y" />
@@ -463,7 +463,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>985 80 1081 128</position>
+				<position>989 87 1085 135</position>
 			</node>
 		</genie>
 	</extensions>
