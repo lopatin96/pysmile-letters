@@ -17,11 +17,15 @@ class LettersClassifier:
                      'free money', 'gift certificate', 'limited', 'lifetime'],
             'love': ['love you', 'loved you', 'for always', 'the words to describe', 'how much you', 'let my heart',
                      'express', 'do that for', 'thinking of', 'want you', 'share', 'excited', 'feeling', 'hot',
-                     'romantic'
-                     ],
+                     'romantic'],
             'cv': ['confident', 'flexible', 'adaptable', 'hard-working', 'reliable', 'dedicated', 'creative', 'dynamic',
                    'business', 'enthusiastic', 'resourceful', 'diplomatic', 'co-operative', 'consistent',
-                   'people-oriented', 'curious', 'passionate']
+                   'people-oriented', 'curious', 'passionate', 'loyal', 'self-motivated', 'achieved', 'accomplished',
+                   'awarded', 'completed', 'conducted', 'delegated'],
+            'sales': ['now', 'hurry', 'quick', 'limited', 'running out', 'fast', 'new', 'deadline', 'last chance',
+                      'final', 'never again', 'expires', 'members only', 'ask for an invitation', 'be one of the few',
+                      'become an insider', 'class full', 'login required', 'lifetime', 'guarantee', 'authentic',
+                      'certified', 'no obligation', 'dependable', 'no risk']
         }
 
     def set_net(self, net_path):
@@ -67,7 +71,8 @@ if __name__ == '__main__':
     letters = {
         'spam': 'You have won $46,000. Seem impossible? Call now, it\'s free or click here for details (no, there is no "catch")...',
         'love': 'Honey,nThere are not enough words to express what you mean to me. I cherish every moment and every new memory. Every second that we share is seared into my mind and in my heart forever. You\'ve left an imprint deep upon my soul. I love you more than you could ever imagine. Forever yours,',
-        'cv': 'A creative, curious, confident and enthusiastic full stack web developer. Constantly eager to learn new technologies and languages.'
+        'cv': 'A creative, curious, confident and enthusiastic full stack web developer. Constantly eager to learn new technologies and languages.',
+        'sales': 'We would like to present you a chance to take advantage of the discount on the purchase of a limited version of our new product. The discount expires within 24 hours and will never be active again. Buy the goods now and we guarantee you will be satisfied.'
     }
 
     # create window
