@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="spam_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="spam_free">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.3 0.7 0.03 0.97</probabilities>
+		</cpt>
+		<cpt id="spam_satisfied">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.15 0.85 0.015 0.985</probabilities>
+		</cpt>
+		<cpt id="spam_accept_credit_cards">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_acceptance">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.02 0.98 0.002 0.998</probabilities>
+		</cpt>
+		<cpt id="spam_won">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.2 0.8 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="spam_access">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.03 0.97 0.003 0.997</probabilities>
+		</cpt>
+		<cpt id="spam_online">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.15 0.85 0.015 0.985</probabilities>
+		</cpt>
+		<cpt id="spam_bargain">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.01 0.99 0.001 0.999</probabilities>
+		</cpt>
+		<cpt id="love_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05000000000000004 0.95</probabilities>
+		</cpt>
+		<cpt id="love_love_you">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.5 0.5 0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_loved_you">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="love_for_always">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="love_the_words_to_describe">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.01 0.99 0.001 0.999</probabilities>
+		</cpt>
+		<cpt id="love_how_much_you">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.02 0.98 0.002 0.998</probabilities>
+		</cpt>
+		<cpt id="love_let_my_heart">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.02 0.98 0.002 0.998</probabilities>
+		</cpt>
+		<cpt id="love_express">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="love_do_that_for">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.02 0.98 0.002 0.998</probabilities>
+		</cpt>
+		<cpt id="love_thinking_of">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="love_want_you">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.5 0.5 0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="love_share">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="love_excited">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="love_feeling">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.2 0.8 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_hot">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.09 0.91 0.008999999999999999 0.991</probabilities>
+		</cpt>
+		<cpt id="love_romantic">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.2 0.8 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="love_meet">
+			<state id="y" />
+			<state id="n" />
+			<parents>love_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="spam_best_price">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_call_now">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.1 0.9 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="spam_call_free">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.1 0.9 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="spam_cash_bonus">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_chance">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_click">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.06 0.9399999999999999 0.006 0.994</probabilities>
+		</cpt>
+		<cpt id="spam_credit">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="spam_free_access">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.09 0.91 0.008999999999999999 0.991</probabilities>
+		</cpt>
+		<cpt id="spam_free_money">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.05 0.9500000000000001 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="spam_gift_certificate">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_limited">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.08 0.92 0.008 0.992</probabilities>
+		</cpt>
+		<cpt id="spam_lifetime">
+			<state id="y" />
+			<state id="n" />
+			<parents>spam_RESULT</parents>
+			<probabilities>0.05 0.95 0.005 0.995</probabilities>
+		</cpt>
+		<cpt id="cv_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.05000000000000004 0.95</probabilities>
+		</cpt>
+		<cpt id="cv_flexible">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_adaptable">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_hard_working">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_reliable">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_confident">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_creative">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_dynamic">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_business">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_enthusiastic">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_dedicated">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_diplomatic">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_co_operative">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_consistent">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_people_oriented">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_resourceful">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_curious">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_passionate">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_loyal">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_self_motivated">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_achieved">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_accomplished">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_awarded">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_completed">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_conducted">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="cv_delegated">
+			<state id="y" />
+			<state id="n" />
+			<parents>cv_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_RESULT">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="sales_hurry">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_quick">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_limited">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_running_out">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_now">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_new">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_deadline">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_last_chance">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_final">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_fast">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_expires">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.75 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_members_only">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_ask_for_an_invitation">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_be_one_of_the_few">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_never_again">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_become_an_insider">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_class_full">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_login_required">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_lifetime">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_guarantee">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_authentic">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_certified">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_no_obligation">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_dependable">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+		<cpt id="sales_no_risk">
+			<state id="y" />
+			<state id="n" />
+			<parents>sales_RESULT</parents>
+			<probabilities>0.25 0.7499999999999999 0.025 0.975</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.4.4601.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
+			<node id="love_love_you">
+				<name>love_love_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>864 167 961 218</position>
+			</node>
+			<node id="love_loved_you">
+				<name>love_loved_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>988 165 1085 216</position>
+			</node>
+			<node id="love_for_always">
+				<name>love_for_always</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1116 169 1213 220</position>
+			</node>
+			<node id="love_the_words_to_describe">
+				<name>love_the_words_to_describe</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1236 169 1333 220</position>
+			</node>
+			<node id="love_how_much_you">
+				<name>love_how_much_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>740 246 837 297</position>
+			</node>
+			<node id="love_let_my_heart">
+				<name>love_let_my_heart</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>862 247 959 298</position>
+			</node>
+			<node id="love_express">
+				<name>love_express</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>986 247 1083 298</position>
+			</node>
+			<node id="love_do_that_for">
+				<name>love_do_that_for</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1111 246 1208 297</position>
+			</node>
+			<node id="love_thinking_of">
+				<name>love_thinking_of</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1240 248 1337 299</position>
+			</node>
+			<node id="love_want_you">
+				<name>love_want_you</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>741 329 838 380</position>
+			</node>
+			<node id="love_share">
+				<name>love_share</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>863 330 960 381</position>
+			</node>
+			<node id="love_excited">
+				<name>love_excited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>987 330 1084 381</position>
+			</node>
+			<node id="love_feeling">
+				<name>love_feeling</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1112 329 1209 380</position>
+			</node>
+			<node id="love_hot">
+				<name>love_hot</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1241 331 1338 382</position>
+			</node>
+			<node id="love_romantic">
+				<name>love_romantic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>739 413 836 464</position>
+			</node>
+			<node id="love_meet">
+				<name>love_meet</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>741 166 838 217</position>
+			</node>
+			<node id="spam_free">
+				<name>spam_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>41 167 138 218</position>
+			</node>
+			<node id="spam_satisfied">
+				<name>spam_satisfied</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>163 168 260 219</position>
+			</node>
+			<node id="spam_accept_credit_cards">
+				<name>spam_accept_credit_cards</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>287 168 384 219</position>
+			</node>
+			<node id="spam_acceptance">
+				<name>spam_acceptance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>412 167 509 218</position>
+			</node>
+			<node id="spam_won">
+				<name>spam_won</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>541 169 638 220</position>
+			</node>
+			<node id="spam_access">
+				<name>spam_access</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 241 137 292</position>
+			</node>
+			<node id="spam_online">
+				<name>spam_online</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>165 242 262 293</position>
+			</node>
+			<node id="spam_bargain">
+				<name>spam_bargain</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>285 244 382 295</position>
+			</node>
+			<node id="spam_best_price">
+				<name>spam_best_price</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>409 243 506 294</position>
+			</node>
+			<node id="spam_call_now">
+				<name>spam_call_now</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>539 244 636 295</position>
+			</node>
+			<node id="spam_call_free">
+				<name>spam_call_free</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>38 328 135 379</position>
+			</node>
+			<node id="spam_cash_bonus">
+				<name>spam_cash_bonus</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>162 332 259 383</position>
+			</node>
+			<node id="spam_chance">
+				<name>spam_chance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 329 380 380</position>
+			</node>
+			<node id="spam_click">
+				<name>spam_click</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>411 327 508 378</position>
+			</node>
+			<node id="spam_credit">
+				<name>spam_credit</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>540 329 637 380</position>
+			</node>
+			<node id="spam_free_access">
+				<name>spam_free_access</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>38 410 135 461</position>
+			</node>
+			<node id="spam_free_money">
+				<name>spam_free_money</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>162 414 259 465</position>
+			</node>
+			<node id="spam_gift_certificate">
+				<name>spam_gift_certificate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 411 380 462</position>
+			</node>
+			<node id="spam_limited">
+				<name>spam_limited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>411 409 508 460</position>
+			</node>
+			<node id="spam_lifetime">
+				<name>spam_lifetime</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>540 411 637 462</position>
+			</node>
+			<node id="spam_RESULT">
+				<name>spam_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>285 88 382 139</position>
+			</node>
+			<node id="love_RESULT">
+				<name>love_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>989 87 1085 135</position>
+			</node>
+			<node id="cv_RESULT">
+				<name>cv_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1692 98 1788 146</position>
+			</node>
+			<node id="cv_flexible">
+				<name>cv_flexible</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1563 167 1660 218</position>
+			</node>
+			<node id="cv_adaptable">
+				<name>cv_adaptable</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1689 168 1786 219</position>
+			</node>
+			<node id="cv_hard_working">
+				<name>cv_hard_working</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1818 170 1915 221</position>
+			</node>
+			<node id="cv_reliable">
+				<name>cv_reliable</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1938 173 2035 224</position>
+			</node>
+			<node id="cv_confident">
+				<name>cv_confident</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1440 166 1537 217</position>
+			</node>
+			<node id="cv_creative">
+				<name>cv_creative</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1563 247 1660 298</position>
+			</node>
+			<node id="cv_dynamic">
+				<name>cv_dynamic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1689 248 1786 299</position>
+			</node>
+			<node id="cv_business">
+				<name>cv_business</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1821 250 1918 301</position>
+			</node>
+			<node id="cv_enthusiastic">
+				<name>cv_enthusiastic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1941 254 2038 305</position>
+			</node>
+			<node id="cv_dedicated">
+				<name>cv_dedicated</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1440 246 1537 297</position>
+			</node>
+			<node id="cv_diplomatic">
+				<name>cv_diplomatic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1566 330 1663 381</position>
+			</node>
+			<node id="cv_co_operative">
+				<name>cv_co_operative</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1692 331 1789 382</position>
+			</node>
+			<node id="cv_consistent">
+				<name>cv_consistent</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1823 330 1920 381</position>
+			</node>
+			<node id="cv_people_oriented">
+				<name>cv_people_oriented</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1939 330 2036 381</position>
+			</node>
+			<node id="cv_resourceful">
+				<name>cv_resourceful</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1443 329 1540 380</position>
+			</node>
+			<node id="cv_curious">
+				<name>cv_curious</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1440 401 1537 452</position>
+			</node>
+			<node id="cv_passionate">
+				<name>cv_passionate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1566 400 1663 451</position>
+			</node>
+			<node id="cv_loyal">
+				<name>cv_loyal</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1695 405 1792 456</position>
+			</node>
+			<node id="cv_self_motivated">
+				<name>cv_self_motivated</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1824 408 1921 459</position>
+			</node>
+			<node id="cv_achieved">
+				<name>cv_achieved</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1939 407 2036 458</position>
+			</node>
+			<node id="cv_accomplished">
+				<name>cv_accomplished</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1438 474 1535 525</position>
+			</node>
+			<node id="cv_awarded">
+				<name>cv_awarded</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1564 473 1661 524</position>
+			</node>
+			<node id="cv_completed">
+				<name>cv_completed</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1693 478 1790 529</position>
+			</node>
+			<node id="cv_conducted">
+				<name>cv_conducted</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1822 481 1919 532</position>
+			</node>
+			<node id="cv_delegated">
+				<name>cv_delegated</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1937 480 2034 531</position>
+			</node>
+			<node id="sales_RESULT">
+				<name>sales_RESULT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2379 99 2475 147</position>
+			</node>
+			<node id="sales_hurry">
+				<name>sales_hurry</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2251 171 2348 222</position>
+			</node>
+			<node id="sales_quick">
+				<name>sales_quick</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2377 172 2474 223</position>
+			</node>
+			<node id="sales_limited">
+				<name>sales_limited</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2491 177 2588 228</position>
+			</node>
+			<node id="sales_running_out">
+				<name>sales_running_out</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2611 179 2708 230</position>
+			</node>
+			<node id="sales_now">
+				<name>sales_now</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2128 170 2225 221</position>
+			</node>
+			<node id="sales_new">
+				<name>sales_new</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2251 251 2348 302</position>
+			</node>
+			<node id="sales_deadline">
+				<name>sales_deadline</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2377 252 2474 303</position>
+			</node>
+			<node id="sales_last_chance">
+				<name>sales_last_chance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2500 257 2597 308</position>
+			</node>
+			<node id="sales_final">
+				<name>sales_final</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2615 257 2712 308</position>
+			</node>
+			<node id="sales_fast">
+				<name>sales_fast</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2128 250 2225 301</position>
+			</node>
+			<node id="sales_expires">
+				<name>sales_expires</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2254 334 2351 385</position>
+			</node>
+			<node id="sales_members_only">
+				<name>sales_members_only</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2380 335 2477 386</position>
+			</node>
+			<node id="sales_ask_for_an_invitation">
+				<name>sales_ask_for_an_invitation</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2502 336 2599 387</position>
+			</node>
+			<node id="sales_be_one_of_the_few">
+				<name>sales_be_one_of_the_few</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2619 338 2716 389</position>
+			</node>
+			<node id="sales_never_again">
+				<name>sales_never_again</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2131 333 2228 384</position>
+			</node>
+			<node id="sales_become_an_insider">
+				<name>sales_become_an_insider</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2128 405 2225 456</position>
+			</node>
+			<node id="sales_class_full">
+				<name>sales_class_full</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2254 404 2351 455</position>
+			</node>
+			<node id="sales_login_required">
+				<name>sales_login_required</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2383 409 2480 460</position>
+			</node>
+			<node id="sales_lifetime">
+				<name>sales_lifetime</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2504 410 2601 461</position>
+			</node>
+			<node id="sales_guarantee">
+				<name>sales_guarantee</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2622 411 2719 462</position>
+			</node>
+			<node id="sales_authentic">
+				<name>sales_authentic</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2126 478 2223 529</position>
+			</node>
+			<node id="sales_certified">
+				<name>sales_certified</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2252 477 2349 528</position>
+			</node>
+			<node id="sales_no_obligation">
+				<name>sales_no_obligation</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2381 482 2478 533</position>
+			</node>
+			<node id="sales_dependable">
+				<name>sales_dependable</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2503 484 2600 535</position>
+			</node>
+			<node id="sales_no_risk">
+				<name>sales_no_risk</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>2624 484 2721 535</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
